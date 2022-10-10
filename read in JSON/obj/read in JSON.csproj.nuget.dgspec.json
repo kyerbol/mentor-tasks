@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Csharp\\read in JSON\\read in JSON.csproj": {}
+    "D:\\Csharp\\tasks-from-the-mentor\\read in JSON\\read in JSON.csproj": {}
   },
   "projects": {
-    "D:\\Csharp\\read in JSON\\read in JSON.csproj": {
+    "D:\\Csharp\\tasks-from-the-mentor\\read in JSON\\read in JSON.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Csharp\\read in JSON\\read in JSON.csproj",
+        "projectUniqueName": "D:\\Csharp\\tasks-from-the-mentor\\read in JSON\\read in JSON.csproj",
         "projectName": "read in JSON",
-        "projectPath": "D:\\Csharp\\read in JSON\\read in JSON.csproj",
+        "projectPath": "D:\\Csharp\\tasks-from-the-mentor\\read in JSON\\read in JSON.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Csharp\\read in JSON\\obj\\",
+        "outputPath": "D:\\Csharp\\tasks-from-the-mentor\\read in JSON\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
