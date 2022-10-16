@@ -17,7 +17,6 @@ namespace WebAPIClient
     class Program
     {
         private static readonly HttpClient client = new HttpClient();
-
         static async Task Main(string[] args)
         {
             var WeatherParametrs = await GetWeather();
