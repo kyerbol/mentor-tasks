@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model GetJSON.Models.WeatherMapResponse;
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+
+    <table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.city)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cod)
+        </th>
+    <th></th>
+    </tr>
+    <tr>
+        <th>
+            @Html.DisplayFor(model => model.city.name)
+        </th>
+        <th>
+            @Html.DisplayFor(model => model.city.country)
+        </th>
+    <th></th>
+    </tr>
+        <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.city.coord.lat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.city.coord.lon)
+        </th>
+    <th></th>
+    </tr>
+    <tr>
+        <th>
+            @Html.DisplayFor(model => model.city.coord.lat)
+        </th>
+        <th>
+            @Html.DisplayFor(model => model.city.coord.lon)
+        </th>
+    <th></th>
+    </tr>
